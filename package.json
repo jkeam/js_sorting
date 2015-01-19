@@ -10,12 +10,15 @@
     "type" : "git",
     "url" : "https://github.com/jkeam/js_sorting"
   },
+  "bugs": {
+    "url" : "https://github.com/jkeam/js_sorting/issues"
+  },
   "keywords": [
     "sorting",
     "algorithms",
     "javascript"
   ],
-  "author": "jkeam",
+  "author": "jkeam <jpkeam@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "chai": "^1.10.0",
