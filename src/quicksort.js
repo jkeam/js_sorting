@@ -50,14 +50,19 @@ module.exports = function() {
 
     while (i < j) {
       processed = true;
-      //time to find elements to swap:
+      //time to find elements to swap
+
       //first keep going we find an element thats bigger than our pivot
+      //make sure we don't cross paths with our right pointer
+      //and that we don't overrun the list
       while (list[low] >= list[i] && i < j && i <= high) {
         i++;
       }
 
       //then keep going right until we find an element thats smaller than our pivot
       //the less than equal to is critical so that we get the j element in the right place
+        //we want the comparison to cross
+      //also make sure we don't overrun our list
       while (list[low] < list[j] && i <= j && j >= low) {
         j--;
       }
@@ -68,7 +73,7 @@ module.exports = function() {
       }
     }
 
-    //swap k with pivot
+    //swap k with pivot if we had comparisons
     if (processed) {
       list = swap(list, low, j); 
     }
