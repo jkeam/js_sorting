@@ -1,10 +1,14 @@
 {
-  "name": "sorting",
+  "name": "js_sorting",
   "version": "1.0.0",
-  "description": "Sorting algorithms for fun and profit :)",
+  "description": "Sorting algorithms for fun and profit!",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
+  },
+  "repository" : { 
+    "type" : "git",
+    "url" : "https://github.com/jkeam/js_sorting"
   },
   "keywords": [
     "sorting",
