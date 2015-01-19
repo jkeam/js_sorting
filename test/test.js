@@ -4,6 +4,7 @@ var Bubble    = require('../src/bubble');
 var Insertion = require('../src/insertion');
 var Mergesort = require('../src/mergesort');
 var Quicksort = require('../src/quicksort');
+var Shellsort = require('../src/shellsort');
 
 describe('Sort', function(){
   var unsorted = [22, 14, 85, 23, 1, 7, 9, 10, 36];
@@ -77,6 +78,19 @@ describe('Sort', function(){
     it('should sort already sorted list', function(){
       var quicksort = new Quicksort();
       var actual = quicksort.sort(sorted);
+      actual.should.to.eql(sorted);
+    })
+  })
+
+  describe('shellsort sort', function(){
+    it('should sort', function(){
+      var shellsort = new Shellsort();
+      var actual = shellsort.sort(unsorted);
+      actual.should.to.eql(sorted);
+    })
+    it('should sort already sorted list', function(){
+      var shellsort = new Shellsort();
+      var actual = shellsort.sort(sorted);
       actual.should.to.eql(sorted);
     })
   })
