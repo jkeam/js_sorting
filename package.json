@@ -1,0 +1,20 @@
+{
+  "name": "sorting",
+  "version": "1.0.0",
+  "description": "Sorting algorithms for fun and profit :)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "sorting",
+    "algorithms",
+    "javascript"
+  ],
+  "author": "jkeam",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.1.0"
+  }
+}
