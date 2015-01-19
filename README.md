@@ -1,5 +1,5 @@
-# Sorting
-Fun sorting algorithms for fun and profit!
+# JS Sorting
+Fun sorting algorithms implemented in JavaScript for fun and profit!
 
 ## Setup
 1.  Clone repo
