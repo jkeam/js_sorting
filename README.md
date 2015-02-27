@@ -7,13 +7,7 @@ Fun sorting algorithms implemented in JavaScript for fun and profit!
   ```shell
   git clone git@github.com:jkeam/js_sorting.git
   ```
-2.  Install mocha globally
-
-  ```shell
-  npm install mocha -g
-  ```
-
-3.  Run test
+2.  Run test
   ```shell
   npm test
   ```
